@@ -1,0 +1,32 @@
+{
+  "roles": [
+    { "id": 1, "nombre": "trabajador" },
+    { "id": 2, "nombre": "cliente" }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "Camila",
+      "email": "camila@mail.com",
+      "password": "123",
+      "rolId": 2
+    },
+    {
+      "id": 2,
+      "nombre": "Mateo",
+      "email": "mateo@mail.com",
+      "password": "456",
+      "rolId": 1
+    }
+  ],
+  "emociones": [
+    {
+      "id": 1,
+      "usuarioId": 1,
+      "estado": "😄",
+      "color": "#FFE066",
+      "nota": "Hoy salí con amigos",
+      "fecha": "2025-07-10"
+    }
+  ]
+}
