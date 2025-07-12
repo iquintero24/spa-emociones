@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 1000" id="lost-connection">
+  <defs>
+    <linearGradient id="Gradient_bez_nazwy_25" x1="679.52" x2="679.52" y1="293.13" y2="586.52" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7a8496"></stop>
+      <stop offset="1" stop-color="#363d56"></stop>
+    </linearGradient>
+    <linearGradient id="Gradient_bez_nazwy_21" x1="691" x2="691" y1="293.13" y2="586.52" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c7c7d1"></stop>
+      <stop offset="1" stop-color="#7a8496"></stop>
+    </linearGradient>
+    <linearGradient xlink:href="#Gradient_bez_nazwy_21" id="Gradient_bez_nazwy_21-2" x1="690.15" x2="690.15" y1="527.16" y2="350.79"></linearGradient>
+    <linearGradient id="Gradient_bez_nazwy_44" x1="653.59" x2="653.59" y1="430.34" y2="449.05" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#363d56"></stop>
+      <stop offset="1" stop-color="#1d1d33"></stop>
+    </linearGradient>
+    <linearGradient xlink:href="#Gradient_bez_nazwy_44" id="Gradient_bez_nazwy_44-2" x1="728.4" x2="728.4"></linearGradient>
+    <linearGradient id="Gradient_bez_nazwy_23" x1="434.5" x2="434.5" y1="702.08" y2="620.09" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c7c7d1" stop-opacity="0"></stop>
+      <stop offset="1" stop-color="#c7c7d1"></stop>
+    </linearGradient>
+    <linearGradient id="Gradient_bez_nazwy_24" x1="233.66" x2="233.66" y1="654.71" y2="707.67" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c7c7d1" stop-opacity=".5"></stop>
+      <stop offset="1" stop-color="#c7c7d1" stop-opacity="0"></stop>
+    </linearGradient>
+    <linearGradient xlink:href="#Gradient_bez_nazwy_21" id="Gradient_bez_nazwy_21-3" x1="585.28" x2="469.99" y1="552.87" y2="552.87"></linearGradient>
+    <linearGradient xlink:href="#Gradient_bez_nazwy_21" id="Gradient_bez_nazwy_21-4" x1="585.28" x2="469.99" y1="627.19" y2="627.19"></linearGradient>
+    <linearGradient id="Gradient_bez_nazwy_59" x1="225.75" x2="225.75" y1="581.3" y2="675.28" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c7c7d1"></stop>
+      <stop offset="1" stop-color="#c7c7d1" stop-opacity="0"></stop>
+    </linearGradient>
+    <linearGradient xlink:href="#Gradient_bez_nazwy_25" id="Gradient_bez_nazwy_25-2" x1="311.21" x2="311.21" y1="569.45" y2="613.89"></linearGradient>
+    <linearGradient xlink:href="#Gradient_bez_nazwy_25" id="Gradient_bez_nazwy_25-3" x1="411.77" x2="411.77" y1="510.78" y2="672.55"></linearGradient>
+  </defs>
+  <g id="Contact">
+    <rect width="300.18" height="293.39" x="529.43" y="293.13" rx="4.2" ry="4.2" style="fill:url(#Gradient_bez_nazwy_25)"></rect>
+    <rect width="300.18" height="293.39" x="540.91" y="293.13" rx="4.2" ry="4.2" style="fill:url(#Gradient_bez_nazwy_21)"></rect>
+    <circle cx="690.15" cy="438.97" r="88.19" style="fill:url(#Gradient_bez_nazwy_21-2)"></circle>
+    <circle cx="653.59" cy="439.7" r="9.35" style="fill:url(#Gradient_bez_nazwy_44)"></circle>
+    <circle cx="728.4" cy="439.7" r="9.35" style="fill:url(#Gradient_bez_nazwy_44-2)"></circle>
+  </g>
+  <g id="Shadow">
+    <path d="M585.27,667.05c0,4.47-4.65,8.1-10.39,8.1h-63.1v22.26c0,2.57-2.67,4.66-5.99,4.66h-141.43c-21.11,0-39.3-9.7-47.68-23.68h-10.73c-6.13,0-11.69-1.94-15.7-5.08-2.42-1.88-4.29-4.21-5.39-6.8-.73-1.72-1.12-3.54-1.12-5.44,0-2.24.55-4.39,1.55-6.37,3.26-6.41,11.28-10.95,20.67-10.95h10.73c8.38-13.99,26.57-23.67,47.68-23.67h141.43c3.32,0,5.99,2.08,5.99,4.66v34.22h63.1c5.74,0,10.39,3.62,10.39,8.08Z" style="fill:url(#Gradient_bez_nazwy_23)"></path>
+    <path d="M284.02,661.07c0,1.9.32,3.72.92,5.44-44.25,2.57-72.78,16.06-87.12,41.15l-15.77-4.33c16.92-29.6,51.66-45.93,103.25-48.62-.82,1.97-1.27,4.12-1.27,6.37Z" style="fill:url(#Gradient_bez_nazwy_24)"></path>
+  </g>
+  <g id="Plug">
+    <path d="M574.89,563.25h-94.52c-5.74,0-10.38-4.65-10.38-10.38s4.65-10.38,10.38-10.38h94.52c5.74,0,10.38,4.65,10.38,10.38s-4.65,10.38-10.38,10.38Z" style="fill:url(#Gradient_bez_nazwy_21-3)"></path>
+    <path d="M574.89,637.57h-94.52c-5.74,0-10.38-4.65-10.38-10.38s4.65-10.38,10.38-10.38h94.52c5.74,0,10.38,4.65,10.38,10.38s-4.65,10.38-10.38,10.38Z" style="fill:url(#Gradient_bez_nazwy_21-4)"></path>
+    <path d="M178.23,675.28l-19.31-7.64c21.39-54.06,66.03-83.11,132.66-86.34l1.01,20.74c-58.57,2.84-95.98,26.8-114.36,73.24Z" style="fill:url(#Gradient_bez_nazwy_59)"></path>
+    <path d="M298.61,569.45h38.39c.93,0,1.69.76,1.69,1.69v41.06c0,.93-.76,1.69-1.69,1.69h-38.39c-8.21,0-14.87-6.66-14.87-14.87v-14.7c0-8.21,6.66-14.87,14.87-14.87Z" style="fill:url(#Gradient_bez_nazwy_25-2)"></path>
+    <path d="M365.89,510.78h139.74c3.4,0,6.15,2.76,6.15,6.15v149.46c0,3.4-2.76,6.15-6.15,6.15h-139.74c-29.87,0-54.13-24.25-54.13-54.13v-53.51c0-29.87,24.25-54.13,54.13-54.13Z" style="fill:url(#Gradient_bez_nazwy_25-3)"></path>
+  </g>
+</svg>

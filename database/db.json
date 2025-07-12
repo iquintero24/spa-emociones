@@ -1,27 +1,45 @@
 {
   "roles": [
-    { "id": 1, "nombre": "trabajador" },
-    { "id": 2, "nombre": "cliente" }
-  ],
-  "usuarios": [
     {
-      "id": 1,
-      "nombre": "Camila",
+      "id": "1",
+      "name": "trabajador"
+    },
+    {
+      "id": "2",
+      "name": "cliente"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Camila",
       "email": "camila@mail.com",
       "password": "123",
       "rolId": 2
     },
     {
-      "id": 2,
-      "nombre": "Mateo",
+      "id": "2",
+      "name": "Mateo",
       "email": "mateo@mail.com",
       "password": "456",
       "rolId": 1
+    },
+    {
+      "id": "c87c",
+      "name": "juan",
+      "email": "juan@gmail.com",
+      "password": "5858"
+    },
+    {
+      "id": "ea46",
+      "name": "key",
+      "email": "keyner@gmail.com",
+      "password": "444"
     }
   ],
   "emociones": [
     {
-      "id": 1,
+      "id": "1",
       "usuarioId": 1,
       "estado": "😄",
       "color": "#FFE066",
