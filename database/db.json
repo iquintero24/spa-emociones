@@ -25,16 +25,11 @@
       "rolId": 1
     },
     {
-      "id": "c87c",
-      "name": "juan",
-      "email": "juan@gmail.com",
-      "password": "5858"
-    },
-    {
-      "id": "ea46",
-      "name": "key",
-      "email": "keyner@gmail.com",
-      "password": "444"
+      "id": "045d",
+      "name": "andres",
+      "email": "andres@gmail.com",
+      "password": "1234",
+      "rolId": 2
     }
   ],
   "emociones": [
@@ -43,8 +38,19 @@
       "usuarioId": 1,
       "estado": "😄",
       "color": "#FFE066",
-      "nota": "Hoy salí con amigos",
-      "fecha": "2025-07-10"
+      "nota": "Hoy salí con amigassssssssssss",
+      "descripcion": "hoy estoy muy feliz sali con mis amigassssssssssssssssss",
+      "fecha": "2025-07-10",
+      "comentario": "Recuerda expresar gratitud por tus momentos felices. se feliz vas muy bien con eso "
+    },
+    {
+      "id": "d0ce",
+      "usuarioId": "1",
+      "estado": "😍",
+      "nota": "estoy enamorada",
+      "descripcion": "un nuevo chivo me gusta",
+      "fecha": "2025-07-13",
+      "color": "#ff0000"
     }
   ]
 }

@@ -5,45 +5,45 @@
 
 export const api = {
   /**
-   * URL base de la API. Cambiar si la API corre en otro puerto o dominio.
+   * 🔗 URL base de la API. Cambia esto si tu backend está en otro servidor o puerto.
    * @type {string}
    */
   base: "http://localhost:3000",
 
   /**
-   * Realiza una petición GET a la API REST y devuelve los datos como JSON.
-   * @param {string} param - Ruta relativa de la API (ej. '/usuarios', '/cursos/1').
-   * @returns {Promise<any>} Respuesta convertida a JSON.
-   * @throws {Error} Si ocurre un error en la petición.
+   * 📥 GET: Recupera datos desde una ruta específica de la API REST.
+   * @param {string} param - Ruta relativa (por ejemplo: '/usuarios', '/emociones').
+   * @returns {Promise<any>} Objeto JS obtenido desde el servidor.
+   * @throws {Error} Si ocurre un fallo de red o respuesta incorrecta.
    */
   get: async (param) => {
     try {
-      const response = await fetch(`${api.base}${param}`);
+      const response = await fetch(`${api.base}${param}`); // 👈 Se construye la URL completa
       if (!response.ok) {
-        throw new Error("Error al obtener los datos");
+        throw new Error("Error al obtener los datos"); // ❌ Si no responde 200 OK
       }
-      return await response.json();
+      return await response.json(); // ✅ Devuelve el JSON
     } catch (error) {
-      console.error("Error en la petición GET:", error);
+      console.error("Error en la petición GET:", error); // 🐞 Log en consola
       throw error;
     }
   },
 
   /**
-   * Realiza una petición POST a la API REST con los datos proporcionados.
-   * @param {string} param - Ruta relativa de la API (ej. '/usuarios').
-   * @param {object} data - Objeto con los datos a enviar.
-   * @returns {Promise<any>} Respuesta convertida a JSON.
-   * @throws {Error} Si ocurre un error en la petición.
+   * 📤 POST: Crea un nuevo recurso en el backend.
+   * @param {string} param - Ruta relativa (ej: '/usuarios').
+   * @param {object} data - Objeto con la información a enviar.
+   * @returns {Promise<any>} Objeto JSON con la respuesta del servidor.
+   * @throws {Error} Si la operación falla.
    */
   post: async (param, data) => {
     try {
       const response = await fetch(`${api.base}${param}`, {
-        method: "POST",
+        method: "POST", // Método HTTP
         headers: {
-          "Content-Type": "application/json",
+          "Content-Type": "application/json", // Encabezado para enviar JSON
         },
-        body: JSON.stringify(data),
+        body: JSON.stringify(data), // 🔄 Convierte JS a JSON
       });
       if (!response.ok) {
         throw new Error("Error al crear los datos");
@@ -56,11 +56,11 @@ export const api = {
   },
 
   /**
-   * Realiza una petición PUT a la API REST para actualizar un recurso existente.
-   * @param {string} p - Ruta relativa con ID (ej. '/usuarios/2').
-   * @param {object} data - Objeto con los datos actualizados.
-   * @returns {Promise<any>} Respuesta convertida a JSON.
-   * @throws {Error} Si ocurre un error en la petición.
+   * ✏️ PUT: Actualiza un recurso existente (usualmente con ID).
+   * @param {string} p - Ruta con ID (ej: '/usuarios/1').
+   * @param {object} data - Datos actualizados.
+   * @returns {Promise<any>} Respuesta del servidor.
+   * @throws {Error} Si falla la petición.
    */
   put: async (p, data) => {
     try {
@@ -82,10 +82,10 @@ export const api = {
   },
 
   /**
-   * Realiza una petición DELETE a la API REST para eliminar un recurso.
-   * @param {string} p - Ruta relativa con ID (ej. '/usuarios/3').
-   * @returns {Promise<any>} Respuesta convertida a JSON.
-   * @throws {Error} Si ocurre un error en la petición.
+   * 🗑️ DELETE: Elimina un recurso desde la API REST.
+   * @param {string} Rutaid - Ruta con ID a eliminar (ej: '/usuarios/1').
+   * @returns {Promise<any>} Respuesta del servidor.
+   * @throws {Error} Si la operación falla.
    */
   delete: async (Rutaid) => {
     try {

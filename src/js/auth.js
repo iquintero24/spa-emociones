@@ -26,7 +26,7 @@ export const auth = {
     if (existingUser.length > 0) {
       throw new Error('El email ya está registrado');
     }
-    const newUser = { name, email, password: pass };
+    const newUser = { name, email, password: pass, rolId: 2 };
     await api.post('/users', newUser); // Registra el nuevo usuario
   },
   // Implementa la función de logout
